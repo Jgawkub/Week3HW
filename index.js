@@ -31,7 +31,6 @@ let  characters=0
 for(j=0; j<names.length; j++){
     characters += names[j].length};
     
-    //console.log(names[j].length)
     console.log(characters/names.length)
     
     for(let x=0;x<names.length;x++){
@@ -72,7 +71,7 @@ console.log(print("Hello",3))
 //8.	Write a function that takes two parameters, firstName and lastName, and returns a full name (the full name should be the first and the last name separated by a space).
 console.log("QUESTION 8")
 function fullName(firstName, lastName){
-    return firstName + " "+ lastName
+    return firstName +" "+ lastName
 }
 console.log(fullName("Jakub","Gaweda"))
 
@@ -177,5 +176,4 @@ function calculateTip(service,bill){
 }
     
 calculateTip("amazing", 38.26)
-
 
